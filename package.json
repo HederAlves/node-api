@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "New challenge",
   "main": "app.js",
-  "scripts": {
-    "dev": "nodemon"
-  },
+  "scripts": {},
   "author": "Heder Alves",
   "license": "MIT",
   "dependencies": {
