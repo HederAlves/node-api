@@ -1,0 +1,28 @@
+POST http://localhost:3030/users
+content-type: application/json
+
+{
+    "name": "Leandro",
+    "password": "10"
+}
+
+###
+
+GET http://localhost:3030/users
+
+###
+
+GET http://localhost:3030/users/90b3fdb1-c703-4a9a-88ff-b631eeb68df4
+
+###
+
+PUT http://localhost:3030/users/20e6d9bc-1a44-4e58-be73-985720771f7d
+content-type: application/json
+
+{
+    "name": "Antonio Alves",
+    "password": "123"
+}
+
+### 
+DELETE http://localhost:3030/users/90b3fdb1-c703-4a9a-88ff-b631eeb68df4
