@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "New challenge",
   "main": "app.js",
-  "scripts": {},
+  "scripts": {
+    "start": "node app"
+  },
   "author": "Heder Alves",
   "license": "MIT",
   "dependencies": {
