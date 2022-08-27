@@ -2,7 +2,7 @@ POST http://localhost:3030/users
 content-type: application/json
 
 {
-    "name": "Leandro",
+    "name": "Kevin",
     "password": "10"
 }
 
@@ -25,4 +25,4 @@ content-type: application/json
 }
 
 ### 
-DELETE http://localhost:3030/users/90b3fdb1-c703-4a9a-88ff-b631eeb68df4
+DELETE http://localhost:3030/users/5e113451-b4eb-49d8-aaf6-3de35a4091b0
